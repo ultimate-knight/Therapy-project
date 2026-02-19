@@ -540,24 +540,32 @@ export default function Home() {
 
       {/* section-9 */}
 
-      <div className="flex flex-col z-20  text-white items-center justify-center space-y-6 bg-[#7D7B46] text-center  min-h-[90vh] p-20 max-[770px]:p-20  min-w-screen">
-        <p className="text-3xl font-semibold">Get started today.</p>
-        <div className="text-center text-lg space-y-3 min-w-[80vw] ">
-          <p>
-            Ready to take the first step toward feeling more grounded and
-            connected? I offer in-person therapy from my private office in Santa
-            Monica as well as secure telehealth sessions for clients across
-            California.
-          </p>
-          <p>
-            Contact me to schedule your first session. I look forward to
-            supporting you on your therapeutic journey.
-          </p>
-        </div>
-        <button className="px-5 py-2 mt-10 border-1 cursor-pointer hover:bg-gray-50 hover:text-[#7D7B46] duration-700 transition-all border-white text-md">
-          GET IN TOUCH
-        </button>
-      </div>
+      <div className="relative z-20 flex items-center justify-center bg-[#7D7B46] text-white text-center w-screen min-h-[70vh] px-6 sm:px-10 lg:px-20 py-20">
+  
+  <div className="max-w-3xl w-full flex flex-col items-center space-y-8">
+    
+    <h2 className="text-[clamp(1.8rem,3vw,2.8rem)] font-semibold">
+      Get started today.
+    </h2>
+
+    <div className="text-[clamp(1rem,1.2vw,1.125rem)] leading-relaxed space-y-4 max-w-2xl">
+      <p>
+        Ready to take the first step toward feeling more grounded and connected?
+        I offer in-person therapy from my private office in Santa Monica as
+        well as secure telehealth sessions for clients across California.
+      </p>
+      <p>
+        Contact me to schedule your first session. I look forward to supporting
+        you on your therapeutic journey.
+      </p>
+    </div>
+
+    <button className="mt-6 px-8 py-3 border border-white uppercase tracking-wide text-sm font-medium transition-all duration-500 hover:bg-white hover:text-[#7D7B46]">
+      Get In Touch
+    </button>
+
+  </div>
+</div>
 
 
 
