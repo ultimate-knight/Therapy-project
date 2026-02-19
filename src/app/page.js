@@ -324,7 +324,9 @@ export default function Home() {
                 </h1>
                 <p>
                   Sessions are structured and collaborative, while still leaving
-                  room for depth and reflection. Whether we’re working through
+                  room for depth and reflection.</p> 
+                  
+                  <p className="mt-4">Whether we’re working through
                   anxiety, trauma, or professional burnout, the office provides
                   a consistent and supportive setting where meaningful
                   therapeutic work can unfold.
