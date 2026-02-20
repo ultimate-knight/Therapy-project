@@ -142,7 +142,7 @@ export default function Home() {
             <div className="flex flex-col items-center justify-center">
               <img
                 src="/stressor.jpeg"
-                className="rounded-full aspect-square max-[770px]:w-[46vw] max-w-[30vw] min-[2000px]:max-w-[15vw] w-full left-14   h-auto"
+                className="rounded-full aspect-square max-[770px]:max-w-[52vw] max-w-[50vw] min-[2000px]:max-w-[15vw] w-full left-14   h-auto"
               />
             </div>
           </div>
@@ -160,7 +160,7 @@ export default function Home() {
             <div className="flex flex-col items-center justify-center">
               <img
                 src="/sleeper.jpeg"
-                className="rounded-full aspect-square max-[770px]:w-[46vw] max-w-[30vw] min-[2000px]:max-w-[15vw] w-full left-14   h-auto"
+                className="rounded-full aspect-square max-[770px]:max-w-[52vw] max-w-[50vw] min-[2000px]:max-w-[15vw] w-full left-14   h-auto"
               />
             </div>
           </div>
@@ -178,7 +178,7 @@ export default function Home() {
             <div className="flex flex-col justify-center items-center">
               <img
                 src="/women-sit.jpeg"
-                className="rounded-full aspect-square max-[770px]:w-[46vw] max-w-[30vw] min-[2000px]:max-w-[15vw] w-full left-14   h-auto"
+                className="rounded-full aspect-square max-[770px]:max-w-[52vw] max-w-[50vw] min-[2000px]:max-w-[15vw] w-full left-14   h-auto"
               />
             </div>
           </div>
